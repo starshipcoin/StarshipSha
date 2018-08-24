@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Starshipsha Core
+Comment=Connect to the Starshipsha P2P Network
+Comment[de]=Verbinde mit dem Starshipsha peer-to-peer Netzwerk
+Comment[fr]=Starshipsha, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Starshipsha, eşten eşe kriptografik sanal para birimi
+Exec=starshipsha-qt %u
+Terminal=false
+Type=Application
+Icon=starshipsha128
+MimeType=x-scheme-handler/starshipsha;
+Categories=Office;Finance;

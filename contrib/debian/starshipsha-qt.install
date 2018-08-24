@@ -1,0 +1,6 @@
+usr/local/bin/starshipsha-qt usr/bin
+share/pixmaps/starshipsha32.xpm usr/share/pixmaps
+share/pixmaps/starshipsha16.xpm usr/share/pixmaps
+share/pixmaps/starshipsha128.png usr/share/pixmaps
+debian/starshipsha-qt.desktop usr/share/applications
+debian/starshipsha-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,8 @@
+/usr/bin/starshipsha-cli		--	gen_context(system_u:object_r:starshipsha_exec_t,s0)
+/usr/sbin/starshipshad		--	gen_context(system_u:object_r:starshipsha_exec_t,s0)
+/usr/lib(64)?/starshipsha/starshipshad		--	gen_context(system_u:object_r:starshipsha_exec_t,s0)
+
+/etc/starshipsha(/.*)?		gen_context(system_u:object_r:starshipsha_conf_t,s0)
+/var/lib/starshipsha(/.*)?		gen_context(system_u:object_r:starshipsha_var_lib_t,s0)
+
+(/var)?/run/starshipshad(/.*)?   gen_context(system_u:object_r:starshipsha_var_run_t,s0)
